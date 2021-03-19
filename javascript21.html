@@ -1,0 +1,41 @@
+<html>
+<head>
+</head>
+<body>
+<script>
+
+var a=Number(prompt("1.sayıyı giriniz"));
+var b=Number(prompt("2.sayıyı giriniz"));
+var islem=(prompt("hangi işlemi yapmk istiyorsun carpma icin : 1 bölme : 2 toplama : 3 cıkarma : 4 kalan : 5"));
+
+switch(islem)
+{
+case"1":
+document.write("carpma sonucu : " ,a*b,);
+break;
+
+case"2":
+document.write("bölme sonucu : " ,a/b,);
+break;
+
+case"3":
+document.write("toplama sonucu : " ,a+b,);
+break;
+
+case"4":
+document.write("cıkarma sonucu : " ,a-b,);
+break;
+
+case"5":
+document.write("kalan sonucu : " ,a%b,);
+break;
+
+default:
+document.write("düzgün değer giriniz ");
+break;
+
+}
+
+</script>
+</body>
+</html>
